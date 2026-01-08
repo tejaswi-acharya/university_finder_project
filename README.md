@@ -9,12 +9,16 @@ The application allows users to search for universities by country (and optional
 ##  How It Works
 
 Frontend (HTML / CSS / JavaScript)
+
 ↓
 FastAPI Backend (/universities?country=...)
+
 ↓
 Hipolabs Universities API
+
 ↓
 FastAPI (optional filtering)
+
 ↓
 Frontend (display results)
 
@@ -42,19 +46,26 @@ The main goal was to:
 ##  Project Structure
 
 University_Search/
-│
+
 ├── learn_fastapi/ # Learning folder (FastAPI basics and experiments)
-│
+
+
 ├── app/
-│ └── main.py # FastAPI backend logic
-│
+
+   ── main.py # FastAPI backend logic
+
 ├── frontend/
-│ ├── index.html # Frontend UI
-│ ├── script.js # Frontend logic (API calls, DOM updates)
-│ └── style.css # Basic styling
-│
+
+   ── index.html # Frontend UI
+   
+   ── script.js # Frontend logic (API calls, DOM updates)
+   
+   ── style.css # Basic styling
+ 
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
 
