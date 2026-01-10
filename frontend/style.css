@@ -1,0 +1,13 @@
+body{
+    background-color:rgb(222, 215, 233);
+    padding-left: 20px;
+}
+
+h1{
+    color:brown;
+    
+}
+button{
+    color:darkred;
+    background-color: coral;
+    flex-direction: row;
